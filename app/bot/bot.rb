@@ -8,4 +8,5 @@ Bot.on :message do |message|
         message.reply(text: "Elliott est le plus beau")
     else    
         message.reply(text: 'Hello, human!')
+    end
 end
